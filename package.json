@@ -1,0 +1,12 @@
+{
+  "name": "fritzlar-angebote",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepare:pdf": "node scripts/prepare-pdf.mjs",
+    "serve": "python3 -m http.server 8000 -d dist"
+  },
+  "dependencies": {
+    "pdfjs-dist": "4.10.38"
+  }
+}
