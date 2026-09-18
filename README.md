@@ -25,7 +25,7 @@ npm install
 npm run prepare:pdf
 ```
 
-Die Website liegt im Ordner `dist`. Anschließend genügt ein einfacher lokaler Webserver:
+Das Vorbereitungsskript kopiert PDF.js und stellt das Titelbild aus der gespeicherten Quelldatei wieder her. Die Website liegt im Ordner `dist`. Anschließend genügt ein einfacher lokaler Webserver:
 
 ```bash
 python3 -m http.server 8000 -d dist
